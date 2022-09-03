@@ -1,0 +1,336 @@
+* {
+    margin:0; 
+    padding:0;
+}
+.header{
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  background-color: #000;
+  pading: 0;
+  margin: 0;
+}
+#title {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 50;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 2%;
+  left: 13%;
+  }
+
+.links-nav{
+  width: 9vw;
+  position: absolute;
+  top: 1%;
+  left: 35%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: stretch;
+}
+.bi{
+  background-color: white;
+  width: 10%;
+  height: 50%;
+}
+#carrito{
+  background-color: white;
+  width: 50px;
+  height: 50px;
+}
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 0;
+  background: transparent;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: #A0A0A0;
+}
+
+.catalogo{
+  width: 100%;
+  height: 253vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  align-content: stretch;
+  justify-content: space-between;
+}
+
+
+#h1-shop {
+
+  font-size: 3em;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 5%;
+  left: 15%;
+  }
+
+.footer{
+width: 100%;
+height: 20%;
+display: flex;
+background-color: #000000;
+position: absolute;
+top: 240vh;
+}
+.contenedor-tarjetas{
+  width: 88vw;
+  height: 177vh;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 8%;
+  left: 8%;
+  justify-content: center;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  align-content: space-between;
+}
+.contenedor-tarjetas img{
+  width: 80%;
+  height: 50%;
+  objet-fit: cover;
+  display: flex;
+  
+}
+.description{
+  height: 147px;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+
+.p-yera{
+    text-align: initial;
+}
+.btn-yera {
+    width: 82%;
+    height: 30%;
+    background-color: #000;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 100;
+    text-align: center;
+    border-radius: 2% 44%;
+    border-color: gray;
+    
+}
+
+.contact-i{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+
+}
+
+
+@media all and (min-width: 800px) {
+      .header{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        background-color: #000;
+        pading: 0;
+        margin: 0;
+        }
+    #title {
+        color: white;
+        font-size: 2.5em;
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 10%;
+        left: 45%;
+        }
+    .links-nav{
+        width: 30vw;
+        height: 80%;
+        position: relative;
+        top: 10%;
+        left: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .bi{
+        background-color: white;
+        width: 10%;
+        height: 50%;
+    }
+    .navigation {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        
+        list-style: none;
+        margin: 0; 
+        background: transparent;
+      }
+      
+      .navigation a {
+        text-decoration: none;
+        display: block;
+        padding: 1em;
+        color: white;
+      }
+      
+      .navigation a:hover {
+        background: #A0A0A0;
+      }
+      
+    .catalogo{
+      width: 100%;
+      height: 253vh;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      align-content: stretch;
+      justify-content: space-between;
+    }
+
+    #h1-shop {
+
+        font-size: 3em;
+        font-weight: 100;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 5%;
+        left: 15%;
+        }
+
+    .footer{
+      width: 100%;
+      height: 20%;
+      display: flex;
+      background-color: #000000;
+      position: absolute;
+      top: 245vh;
+    }
+
+    .contenedor-tarjetas{
+      width: 78vw;
+      height: 190vh;
+      background-color: white;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 8%;
+      left: 8%;
+      justify-content: space-between;
+      display: grid;
+      grid-template-rows: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+      pading: 10px;
+    }
+
+    .contenedor-tarjetas img{
+        width: 90%;
+        height: 80%;
+        objet-fit: cover;
+    }
+    .description{
+      height: 164px;
+      display: flex;
+      flex-direction: column;
+      align-content: stretch;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .p-yera{
+        text-align: center;
+    }
+    .btn-yera {
+        width: 82%;
+        height: 30%;
+        background-color: #000;
+        color: white;
+        font-size: 1.5em;
+        font-weight: 100;
+        text-align: center;
+        border-radius: 2% 44%;
+        border-color: gray;
+        
+    }
+
+    .contact-i{
+      width: 80%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      color: white;
+      font-size: 2.5em;
+      font-weight: 400;
+      text-align: center;
+
+    }
+
+
+
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+
+
